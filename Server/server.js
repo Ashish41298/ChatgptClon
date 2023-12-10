@@ -54,7 +54,7 @@ app.post('/api/chat', async (req, res) => {
 app.post('/api/Bardchat', async (req, res) => {
   const prompt = req.body.prompt;
   console.log(prompt);
-  const apiKey =process.env.BARD_AI_KEY; //'AIzaSyAChb9CpHDl_CQlhxmp855B3VRDJypX8Ns'
+  const apiKey =process.env.BARD_AI_KEY; 
   const url = `https://generativelanguage.googleapis.com/v1beta2/models/text-bison-001:generateText?key=${apiKey}`;
     const data = {
       prompt: {
