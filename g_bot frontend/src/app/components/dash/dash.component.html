@@ -1,0 +1,60 @@
+
+
+<!-- <div style="height: 100vh; width:100%; position: absolute; top: 0%; left: 0%; z-index: 9999999999999999999999;" class="imgc">
+    <img class="imglazy" blrsrc="../../../assets/skybgsai.jpg" src="../../../assets/skybgsai-blr.png" appLazyLoader/>
+</div> -->
+
+<section class="Dashboard">
+    <img class="imglazy" blrsrc="../../../assets/skybgsai.jpg" src="../../../assets/skybgsai-blr.png" appLazyLoader/>
+  <div class="blr"></div>
+    <canvas id="myCanvas"></canvas>
+    <div class="maininner">
+        <div class="header_dash">
+           <div class="logos animate__animated animate__fadeIn" matRipple >
+            <img style="height: 100%; filter: contrast(0.7);" src="../../../assets/AI_logo.jpg" alt="">
+           </div>
+           <button (click)="reprofile()" class="dashlogbtn animate__animated animate__fadeInRight" mat-raised-button >Profile</button>
+        </div>
+        <div  class="midsection">
+
+         <div id="tilt" class="selecpg scresher">
+            <h3>ChatGpt 3.5 Turbo</h3>
+            <div class="innerimg">
+                <img src="../../../assets/Dash_AI_logochat.png" alt="">
+            </div>
+            <div class="sdiscription ">
+                <div class="chatgpt"></div>
+            </div>
+            <button (click)="gochatgpt()" class="locatebtn" mat-raised-button>Go</button>
+         </div>
+        
+         <div id="tilt" class="selecpg">
+            <h3>Code-Snippets</h3>
+            <div class="innerimg">
+                <img src="../../../assets/Chat-Snippet.jpeg" alt="">
+            </div>
+            <div class="sdiscription">
+                <div class="codesnipite"></div>
+            </div>
+            <button (click)="gosnipite()" class="locatebtn" mat-raised-button >Go</button>
+         </div>
+
+         <div id="tilt" class="selecpg wraper">
+            <h3>Google Bard PaLM</h3>
+            <div class="innerimg">
+                <img src="../../../assets/Dash_Bard_logo.png" alt="">
+            </div>
+            <div class="sdiscription">
+                <div class="bard"></div>
+            </div>
+            <button (click)="gobard()" class="locatebtn" mat-raised-button>Go</button>
+         </div>
+        </div>
+        <div class="footer">
+            <div>
+                <h3 class="ftext">Copyright ©2023 All rights reserved.</h3>
+            </div>
+        </div>
+    </div>
+
+</section>  

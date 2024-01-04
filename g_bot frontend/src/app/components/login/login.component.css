@@ -1,0 +1,128 @@
+
+.Mlogin{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../../../assets/ainature-low.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: All 0.4s ease-in;
+}
+.blr{
+  position: absolute;
+  top:0%;
+  left: 0%;
+  height: 100vh;
+  width: 100%;
+  background:rgb(255,255,255,0.2);
+  backdrop-filter: blur(15px);
+  transition: All 0.4s ease-in;
+}
+.innerlog{
+  /* position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%,-50%); */
+  display: grid !important;
+  place-items: center !important;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+ transition: all 0.50s;
+ box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+ z-index: 999999999999;
+}
+.innerlog:hover{
+  box-shadow: rgba(10, 10, 10, 0.15) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.example-container{
+  display: grid;
+  place-items: center;
+}
+.divider{
+  height: 0;
+  width: 87%;
+  border-bottom: 1.5px solid #8e8e8e;
+  margin: 17px 0px 20px 0px;
+}
+.dataerr{
+  margin-left: -4px;
+  position: relative;
+  top: -20px;
+  height: fit-content;
+  width: 196px;
+  color: orange;
+  line-height: 1;
+}
+.perr{
+  color: crimson;
+  font-size: 11px;
+}
+.updpoto{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.proimg{
+  height: 75px;
+  width: 75px;
+  object-fit: cover;
+  background-position: center;
+  border-radius: 50%;
+  border: 1px solid rebeccapurple;
+  position: relative;
+}
+.phpeditor{
+  position: relative;
+    top: -40px;
+    right: -15%;
+    background: #6755ff;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px !important;
+    color: white;
+}
+.sbtns{
+  margin-bottom:5px;
+}
+.forgot{
+  margin-top: 10px;
+  margin-bottom: -5px;
+  padding: 5px;
+  cursor: pointer;
+  color: #1623e1;
+  font-weight: bold;
+  font-family: monospace;
+  border-radius: 5px;
+  margin-top: 15px;
+  box-shadow: -3px -3px 7px #fdfdfdeb, 2px 2px 5px rgba(94, 104, 121, 0.288);
+}
+
+@media (max-width:290px){
+  .innerlog{
+    padding: 5px;
+  }
+}
+@media (max-width:273px){
+  .innerlog{
+    padding: 5px 5px;
+  }
+  .mfield{
+    width: 100%;
+  }
+  .sbtns{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+ 
+}
+
+

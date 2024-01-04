@@ -1,0 +1,125 @@
+/* You can add global styles to this file, and also import other style files */
+/* Import Prism.js core styles */
+
+/* Import additional language styles (optional) */
+ /* @import "~highlight.js/styles/default.css";  */
+/* 
+@import '../node_modules/highlight.js/styles/base16/equilibrium-dark.css'; atom-one-dark */
+/* @import '../node_modules/highlight.js/styles/atom-one-dark.css'; */
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.soclog{
+    border-radius: 10px;
+    border: 2px solid blue;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.nsm7Bb-HzV7m-LgbsSe.MFS4be-JaPV2b-Ia7Qfc{
+    padding-left: 2px !important;
+} 
+.nsm7Bb-HzV7m-LgbsSe.MFS4be-JaPV2b-Ia7Qfc {
+    margin-left: 0px !important;
+}
+.mat-expansion-panel{
+  margin-bottom: 10px !important;
+ }
+ .mat-expansion-panel-header-description{
+    margin-left: -70px !important;
+    font-size: 11.5px !important;
+ }
+.mat-expansion-panel-header{
+    padding: 0 24px 0px 10px !important;
+}
+p{
+    font-family: 'Mulish', sans-serif !important;
+    margin: 0% !important;
+    font-size: 1.11em !important;
+}
+body{
+    height: 100vh;
+    width: 100%;
+}
+.gbotpre{    
+     /* color: #c9d1d9 !important;
+    background: #0d1117 !important; */
+    padding: 20px 15px 0px !important;
+    border-radius: 10px !important;
+    white-space: pre;
+    margin-left: 15px;
+    width: inherit !important;
+    height: fit-content;
+    max-height: 520px;
+    overflow: scroll;
+    margin-top: 2px !important;
+}
+.gbotpre::-webkit-scrollbar{
+    display: none;
+}
+code{
+    background: transparent;
+    position: relative;
+    margin-right: 10px;
+    /* white-space: pre-wrap !important; */
+    font-size: 1.1em !important;
+    padding: 0px !important; 
+}
+code > span:first-child{
+    margin-left: -110px !important;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.langcs{
+    height: 25px;
+    width: 100%;
+    background: lightslategray;
+}
+
+/* .copy-code-button{
+    position: relative;
+    left: 95%;
+    top: 45px;
+    background: #acacac;
+    border: none;
+    padding: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border-radius: 5px;
+} */
+.copytoclip{
+    min-width: fit-content !important;
+    width: fit-content;
+    height: 21px !important;
+    line-height: 1px !important;
+    background: white !important;
+    padding: 5px !important;
+}
+.copytoclip svg{
+    fill: blue !important;
+    font-size: 15px !important;
+}
+.codehd{
+    font-family: cursive;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    height: 25px;
+    background: #5a5858;
+    position: absolute;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 5px 0px 10px !important;
+    z-index: 9;
+    color: white;
+}
+
